@@ -1,0 +1,706 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: border-box;
+	font-family: serif;
+	font-size: 16px;
+
+}
+body{
+	background:  #282a35;
+	
+}
+.navbar{
+	height: 59px;
+	width: 100%;
+	background:white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: transparent;
+}
+.menubar img {
+		display: none;
+	}
+
+
+.logo{
+	height: 100%;
+	width: 80px;
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+.first img{
+	width: 20px;
+	height: 20px;
+}
+.first input{
+	width: 170px;
+	height: 40px;
+	padding: 8px 0px ;
+	background: transparent;
+	border: 1px solid transparent;
+	color: whitesmoke;
+	outline: none;
+
+
+}
+::placeholder{
+	color: whitesmoke;
+	opacity: 1;
+}
+
+.first{
+	display: flex;
+	align-items: center;
+	width: 192px;
+	height: 40px;
+	border-bottom: 1px solid whitesmoke;
+}
+.first:hover{
+	border-bottom: 1px solid #04aa6d;
+}
+
+.middle a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+.middle a:hover{
+
+	font-size:16px ;
+
+}
+.middle{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 502px;
+	height: 35px;
+}
+.ccourse{
+	width: 60px;
+}
+.cppcourse{
+	width: 60px;
+}
+.htmlcourse{
+	width: 60px;
+}
+.csscourse{
+	width: 60px;
+}
+.jscourse{
+	width: 60px;
+}
+
+.last a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 16px;
+	font-weight: normal;
+}	
+
+.last{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 200px;
+	height: 40px;
+}
+.signuppage{
+	width: 60px;
+	height: 20px ;
+	padding: 8px 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #04aa6d;
+	border: 1px solid #04aa6d ;
+	border-radius: 25px;
+}
+.loginpage{
+	width: 60px;
+	height: 20px ;
+	padding: 8px 16px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid whitesmoke ;
+	border-radius: 25px;
+}
+.signuppage:hover{
+	background:#018e5b ;
+}
+.loginpage:hover{
+	background: #018e5b;
+}
+.hero-section{
+	background-color: whitesmoke;
+	height: calc(100vh - 59px); 
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.heroimg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 50%;
+}
+.intro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.intro h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: #282a35;
+}
+.intro p{
+	color: #282a35;
+}
+.mainpanel{
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+/*	background: ghostwhite;*/
+}
+.mainpanel h2{
+	font-size: 30px;
+	font-weight: 700;
+	color: whitesmoke;
+}
+
+.mainpanel div p{
+	font-weight: lighter;
+	font-size: 20px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	color: whitesmoke;
+}
+
+.coursea{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.courseb{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.coursec{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+ .course1{
+	width: 40%;
+	height: 80vh;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0px 0px 15px 5px transparent;
+	margin: 10px 10px;
+	border-radius: 5%;
+}
+	
+.course1:hover{
+	box-shadow: 0px 0px 15px 5px black;
+}	
+ .course2{
+	width: 40%;
+	height: 80vh;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0px 0px 15px 5px transparent;
+	margin: 10px 10px;
+	border-radius: 5%;
+}
+.course2:hover{
+	box-shadow: 0px 0px 15px 5px black;
+}
+ .course3{
+	width: 40%;
+	height: 80vh;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0px 0px 15px 5px transparent;
+	margin: 10px 10px;
+	border-radius: 5%;
+}
+.course3:hover{
+	box-shadow: 0px 0px 15px 5px black;
+}
+ .course4{
+	width: 40%;
+	height: 80vh;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0px 0px 15px 5px transparent;
+	margin: 10px 10px;
+	border-radius: 5%;
+}
+.course4:hover{
+	box-shadow: 0px 0px 15px 5px black;
+}
+ .course5{
+	width: 40%;
+	height: 80vh;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 0px 0px 15px 5px transparent;
+	margin: 10px 20px;
+	border-radius: 5%;
+}
+.course5:hover{
+	box-shadow: 0px 0px 15px 5px black;
+}
+.heading1{
+	width: 80%;
+	height: 8%;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10px;
+}
+.heading1 h3{
+	font-size: 28px;
+	font-weight: 700;
+	color: #282a35;
+}
+.image1{
+	width: 80%;
+	height: 66%;
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.click1{
+	width: 80%;
+	height: 8%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.click1 button
+{	
+	border: none;
+	padding: 10px 5px;
+	border-radius: 10%;
+	background: #282a35;
+	font-size: 15px;
+	color: white;
+}
+
+.click1 button a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.aboutus{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fefae0;
+
+}
+.aboutus h3{
+	margin: 25px 0px;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	color: #282a35;
+
+}
+.aboutus div{
+	display: flex;
+	margin: 20px 0px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+  .imglast1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aboutus img{
+	width:370px; 
+	height:250px;
+}
+  .paralast1{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 20px;
+
+}
+.paralast1 p{
+	text-align: justify;
+	line-height: 2;
+	color: #282a35;
+}
+
+.paralast12 p{
+	display: none;
+}
+.aboutadmin{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background: #edf6f9;
+}
+.aboutadmin h3{
+	margin: 25px 0px;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	color: #282a35;
+
+}
+.aboutadmin div{
+	display: flex;
+	margin: 20px 0px;
+}
+.aboutadmin div p{
+	text-align: justify;
+	line-height: 2;
+	color: #282a35;
+	padding: 0px 20px;
+}
+
+.imglast2{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imglast2 img{
+	border-radius: 50%;
+}
+.paralast2{
+/*	width: 50%;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:0px 20px;
+}
+.footer1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px;
+	color: whitesmoke;
+
+}
+.footer1 a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin: 0px 10px;
+}
+.footer2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0px;
+
+}
+.footer2 a {
+	margin: 0px 10px;
+}
+
+
+
+/*......................................media query file................*/
+@media screen and ( max-width: 914px){
+	.jscourse{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px){
+	
+	.middle{
+		display: none;
+	}
+	.course1{
+	
+	height: 60vh;
+	
+	}
+ 	.course2{
+	
+	height: 60vh;
+	
+	}
+	.course3{
+		height: 60vh;
+	}
+	.course4{
+		height: 60vh;
+	}
+	.course5{
+		height: 60vh;
+	}
+	.aboutus img{
+	width:200px; 
+	height:150px;
+}
+	.paralast1 p{
+	display: none;
+	position: absolute;
+	height: 50vh;
+
+}
+
+	.paralast12{
+	display: block;
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 20px;
+
+}
+.paralast12 p{
+	display: block;
+	text-align: justify;
+	padding: 0px 20px;
+}
+
+.aboutadmin div p{
+	text-align: justify;
+	line-height: 1;
+	color: #282a35;
+	padding: 0px 20px;
+}
+
+
+@media screen and ( max-width: 527px) {
+		
+		body{
+			overflow: scroll;
+		}
+
+	.logo{
+		display: none;
+	}
+	.hero-section{
+		width: 100%;
+		height: 50vh;
+	}
+	.heroimg{
+		display: none;
+	}
+	.course1{
+	
+	height: 40vh;
+	
+	}
+ 	.course2{
+	
+	height: 40vh;
+	
+	}
+	.course3{
+		height: 40vh;
+	}
+	.course4{
+		height: 40vh;
+	}
+	.course5{
+		height: 40vh;
+	}
+	.heading1{
+		height: 25px;
+	}
+	.heading1 h3{
+		font-size: 20px;
+	}
+	.click1{
+		height: 30px;
+		width: 100px;
+	}
+	.click1 button{
+		border-radius: 30%;
+	}
+	.click1 button a{
+		font-size: 12px;
+	}
+	.aboutus div{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	/*.imagelast1 img{
+		width: 30%;
+		height: 30%;
+	}*/
+	.aboutadmin div{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.aboutadmin img{
+		width:200px ;
+		height: 200px;
+
+	}
+}
+@media screen and (max-width: 425px){
+	body{
+		overflow: scroll;
+	}
+	
+	.last{
+		display: none;
+	}
+	.menubar img {
+		display: block;
+		width: 20px;
+	   height: 20px;
+	   margin-left: 30px;
+	}
+	
+	.first input{
+		width: 250px;
+	}
+	.coursea{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.courseb{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.coursec{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.mainpanel h2{
+		font-size: 25px;
+	}
+	.mainpanel div p{
+		font-size: 15px;
+	}
+	.heading1 h3{
+		font-size: 20px;
+	}
+	.course1{
+		width: 70vw;
+		height: 50vh;
+	}
+	.course2{
+		width: 70vw;
+		height: 50vh;
+	}
+	.course3{
+		width: 70vw;
+		height: 50vh;
+	}
+	.course4{
+		width: 70vw;
+		height: 50vh;
+	}
+	.course5{
+		width: 70vw;
+		height: 50vh;
+	}
+	.aboutus div p{
+		line-height: 1;
+		font-size: 13px;
+		word-spacing: 1px;
+	}
+	.aboutadmin div p{
+		line-height: 1;
+		font-size: 13px;
+		word-spacing: 1px;
+	}
+	.aboutus img{
+		width: 150px;
+		height: 100px;
+	}
+	.aboutadmin img{
+		width: 150px;
+		height: 150px;
+	}
+	.paralast1{
+		height: 0%;
+	}
+	.paralast12{
+		height: 40%;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
